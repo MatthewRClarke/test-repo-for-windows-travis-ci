@@ -6,7 +6,7 @@ python:
 matrix:
   include:
     - os: windows
-      language: sh
+      language: shell
       python: "3.7"
       before_install:
         - choco install python3 --version 3.7
