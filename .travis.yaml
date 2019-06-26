@@ -1,0 +1,7 @@
+os: windows
+
+before_install:
+  - echo "Installing Python"
+  - choco install python
+
+script: echo "Test!"
