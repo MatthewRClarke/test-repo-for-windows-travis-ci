@@ -1,5 +1,5 @@
-language: sh
 os: windows
+language: sh
 before_install:
   - echo "Installing Python"
   - choco install python --version 3.7
